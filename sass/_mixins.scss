@@ -1,0 +1,7 @@
+$desktop-width: 775px;
+
+@mixin desktop {
+   @media screen and (max-width: #{$desktop-width}) {
+       @content;
+   }
+}
