@@ -1,0 +1,139 @@
+.navArea{
+    position: absolute;
+    background-color: #ff0000;
+    width: 40%;
+    right: 0;
+    top: 0;
+    overflow-x:hidden;
+    height: 100%;
+    z-index:1000;
+    transition: all 250ms linear;
+    display: block;
+    
+}
+.socialList{
+    display:flex;
+   list-style-type:none;
+   margin-left:10%;
+}
+
+.socialList .fab{
+    color:#dfdfdf;;
+    font-size:1.5em;
+    margin-right:1em;
+
+    
+
+}
+.socialList .fab:hover{
+    color:white;
+}
+
+.navList{
+    list-style-type: none;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.navLink{
+    color: #dfdfdf;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+}
+
+.navLink:hover{
+    border-bottom: 1px #dfdfdf solid;
+    padding-bottom: 2px;
+}
+
+.navInfo{
+    list-style-type: none;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: .9em;
+    color: #dfdfdf;
+    margin-left: 10%;
+    width:200px;
+    opacity:1;
+    transition:opacity 180ms ease-in-out 180ms;
+    
+}
+
+.op{
+    opacity: 0;
+    width: 0%;
+    -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+    filter: blur(3px);
+}
+.infoList{
+    margin-bottom: 20px;
+}
+
+.menuButton{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    position: absolute;
+    top: 80px;
+    right: 75px;
+    font-weight: bold;
+    z-index: 2;
+    transition: all .5s ease-in-out;
+}
+
+.menuButton:hover{
+    text-decoration: underline;
+}
+
+.menuHome{
+    color: #ffffff;
+}
+
+.menuHome:hover{
+    color: #cccccc;
+}
+
+.closeButton{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #dfdfdf;
+    position: absolute;
+    top: 80px;
+    right: 75px;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+}
+
+.closeButton:hover{
+    text-decoration: underline;
+}
+
+.adminLink{
+    display: block;
+    width: 28px;
+    margin-top: 72px;
+    margin-left: 30px;
+    opacity: .5;
+    transition: all .4s ease-in-out;
+}
+
+.adminLink:hover{
+    opacity: 1;
+}
+
+
+//left dots
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background:#000000;
+
+}
+
+@include desktop{
+    .navArea{
+        width: 100%;
+    }
+}

@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+
+.siteTitle{
+    margin: 0;
+    font-size: 2em;
+    margin-left: 55px;
+    display: inline-block;
+    padding-top: 60px;
+    font-weight: bold;
+}
+
+
+.imgFilter{
+    list-style-type: none;
+    float: right;
+    clear: both;
+    margin-right: 75px;
+    margin-top: 150px;
+}
+
+.filterChoice{
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.filterChoice a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.filterChoice a:hover{
+    text-decoration: underline;
+}
+
+.imgSect{
+    display: flex;
+    flex-wrap: wrap;
+    width: 94%;
+    margin-left: 3%;
+    justify-content: space-around;
+    margin-top: 160px;
+}
+
+.orgPoster{
+    flex-basis: 210px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.orgPoster img{
+    width: 100%;
+    height: auto;
+    border: .8px solid #000;
+}
+
+.pArtist{
+    margin-top: 10px;
+    font-size: .95em;
+}
+
+.pDate{
+    font-size: .9em;
+}
+
+
+
+footer{
+    background-color: #313131;
+    margin-top: 30px;
+    height: 100px;
+}
+
+footer .siteTitle{
+    color: #ffffff;
+    padding-bottom: 0px;
+}
+
+.copyright{
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.centerer{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 35vw;
+}
+
+.centered{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: .75em;
+    color: #fff;
+    font-weight: initial;
+}
+
+
+
+@include desktop{
+    .imgFilter{
+        float: none;
+        clear: both;
+        width: 76%;
+        margin-left: 12%;
+        padding: 0; 
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .filterChoice{
+        margin: 0;
+    }
+
+    .imgSect{
+        margin-top: 50px;
+    }
+}
