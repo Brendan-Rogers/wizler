@@ -2,7 +2,7 @@
 
 $db_dsn = array(
     'host' => 'localhost',
-    'dbname' => 'db_odp',
+    'dbname' => 'db_wizler',
     'charset' => 'utf8',
 );
 $dsn = 'mysql:' . http_build_query($db_dsn, '', ';');
@@ -20,7 +20,5 @@ try {
     echo "Connection error: " . $exception->getMessage();
     exit();
 }
-
-
 
 ?>

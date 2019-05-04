@@ -1,3 +1,7 @@
+body {
+    font: sans-serif;
+}
+
 .submit_button {
     background-color: white;
 }
@@ -8,8 +12,8 @@
     z-index: 10;
     width: 150px;
     height: auto;
-    top: 45vh;
-    right: 45vw;
+    top: 85vh;
+    right: 45px;
 
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 25px;
@@ -19,7 +23,7 @@
 }
 
 .submit_button img:hover {
-    width: 180px;
-    right: 43vw;
-    top: 43vh;
+    width: 170px;
+    top: 84vh;
+    right: 40px;
 }

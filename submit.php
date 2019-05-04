@@ -53,6 +53,7 @@
 <head>
    <title>SUBMISSION PAGE</title>
    <link rel="stylesheet" href="css/master.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
 
@@ -86,6 +87,8 @@
       </div>
 
       <a href="admin/admin_login.php" class="adminLink"><img class="adminLock" src="images/lock-icon.svg" alt="admin link"></a>
+
+
 
 <script src="js/nav.js"></script>
 
